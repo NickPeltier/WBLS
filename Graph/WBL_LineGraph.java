@@ -106,7 +106,6 @@ public class WBL_LineGraph
         x.setDrawLimitLinesBehindData(true);
 
         //Enable all zooming features, enable a fixed zoom
-//        chart.setScaleEnabled(false);
         int test = (xValues.size() / 150);
         chart.zoom((float) (numLabels - 0.1), 0, numLabels, 0);
         chart.setHorizontalScrollBarEnabled(true);
@@ -114,8 +113,6 @@ public class WBL_LineGraph
 
         //Y-axis configuration
         y = chart.getAxisLeft();
-//        y.setAxisMaxValue(max + INCREMENT_GRAPH);
-//        y.setAxisMinValue(min - INCREMENT_GRAPH);
         setYMaxAndMin(min, max, 5);
         y.setLabelCount(6, true);
         y.setDrawTopYLabelEntry(true);
