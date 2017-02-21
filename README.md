@@ -1,6 +1,6 @@
 I've made a folder for each of you to add your code to.
 
-Nick -> Graphing
+Nick -> Graph Services
 
 
 Matt -> Wearable Services
