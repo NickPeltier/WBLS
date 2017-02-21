@@ -1,5 +1,3 @@
-package com.example.nickp.angraph;
-
 import android.content.Context;
 import android.graphics.Color;
 
